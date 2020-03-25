@@ -1,7 +1,7 @@
 # PlayStoreVersionChecker
 Playstore version Checker 
-
-Add build.gradle(Project:ABC)
+</br></br>
+<h2><b>Add build.gradle(Project:ABC)</b><h2>
 
 maven { url 'https://jitpack.io' }
 
@@ -10,14 +10,14 @@ maven { url 'https://jitpack.io' }
 
 
 
-Add build.gradle (Module:app)
+<h2><b>Add build.gradle (Module:app)</b><h2>
 
 implementation 'com.github.sudiptab4:PlayStoreVersionChecker:1.0.3'
 
 </br></br>
 
 
-See tis image
+<h2><b>See tis image</b><h2>
 </br></br>
 
 
