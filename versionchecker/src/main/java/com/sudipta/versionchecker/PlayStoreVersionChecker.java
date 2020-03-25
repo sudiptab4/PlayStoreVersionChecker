@@ -36,7 +36,7 @@ public class PlayStoreVersionChecker {
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
         webView.addJavascriptInterface(new MyJavaScriptInterface(), "HtmlViewer");
-        webView.loadUrl("https://play.google.com/store/apps/details?id=com.doinandin&hl=en");
+        webView.loadUrl("https://play.google.com/store/apps/details?id"+packageName+"&hl=en");
         webView.setWebViewClient(new MyBrowser());
         if (Build.VERSION.SDK_INT >= 19) {
             webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
