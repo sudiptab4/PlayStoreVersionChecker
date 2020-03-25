@@ -1,4 +1,3 @@
-<head><meta name="google-site-verification" content="OclTkqkgUhD8Xat2stmV6DB7bUcA_uYa505lzFd91t0" /></head>
 # PlayStoreVersionChecker
 
 
