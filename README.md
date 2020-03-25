@@ -25,7 +25,7 @@ implementation 'com.github.sudiptab4:PlayStoreVersionChecker:1.0.3'
 
 
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/pRXMGGX/playstore.png" alt="playstore" border="0" /></a>
+<a href="https://camo.githubusercontent.com/130e34761a394d0df5281937735f91e868229a46/68747470733a2f2f692e6962622e636f2f7052584d4747582f706c617973746f72652e706e67"><img src="https://i.ibb.co/pRXMGGX/playstore.png" alt="playstore" border="0" /></a>
 
 
 </br></br>
