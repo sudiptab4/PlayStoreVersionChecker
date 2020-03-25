@@ -1,0 +1,2 @@
+include ':app', ':versionchecker'
+rootProject.name='PlayStoreVersionChecker'
