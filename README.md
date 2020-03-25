@@ -9,13 +9,16 @@ maven { url 'https://jitpack.io' }
 
 
 
+
 Add build.gradle (Module:app)
 
 implementation 'com.github.sudiptab4:PlayStoreVersionChecker:1.0.3'
 
 
 
+
 See tis image
+
 
 
 
