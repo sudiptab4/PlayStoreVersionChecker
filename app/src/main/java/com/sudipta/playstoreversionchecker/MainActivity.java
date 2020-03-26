@@ -1,12 +1,12 @@
 package com.sudipta.playstoreversionchecker;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.StrictMode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.sudipta.versionchecker.PlayStoreVersionChecker;
+import com.sudipta.versionchecker.VersionCallBack;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -20,14 +20,26 @@ public class MainActivity extends AppCompatActivity {
                     new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
-       playStoreVersionChecker=new PlayStoreVersionChecker(MainActivity.this,getApplicationContext().getPackageName());
+       playStoreVersionChecker=new PlayStoreVersionChecker(MainActivity.this, getApplicationContext().getPackageName(), new VersionCallBack() {
+           @Override
+           public void callback(String result) {
+               int versionCode = BuildConfig.VERSION_CODE;
+               if (result.equals(String.valueOf(versionCode))) {
+
+                   System.out.println("ssssssssss " + "True");
+               }
+               else {
+                   System.out.println("ssssssssss " + "False");
+               }
+           }
+       });
        playStoreVersionChecker.VersionChecker();
 
-       getVersionFromPlayStore();
+      // getVersionFromPlayStore();
 
     }
 
-    private void getVersionFromPlayStore() {
+   /* private void getVersionFromPlayStore() {
         Handler handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -43,6 +55,6 @@ public class MainActivity extends AppCompatActivity {
               //  System.out.println("ssssssssss"+verSionCode);
             }
         },2000);
-    }
+    }*/
 
 }
