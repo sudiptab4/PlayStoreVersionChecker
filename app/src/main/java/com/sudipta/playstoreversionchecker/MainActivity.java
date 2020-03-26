@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
    /* private void getVersionFromPlayStore() {
         Handler handler=new Handler();
         handler.postDelayed(new Runnable() {
