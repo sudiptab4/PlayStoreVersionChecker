@@ -14,7 +14,7 @@ maven { url 'https://jitpack.io' }
 
 <h2><b>Add build.gradle (Module:app)</b><h2>
 
-implementation 'com.github.sudiptab4:PlayStoreVersionChecker:1.0.3'
+ implementation 'com.github.sudiptab4:PlayStoreVersionChecker:1.0.4'
 
 </br></br>
 
